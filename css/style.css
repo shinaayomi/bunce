@@ -1,0 +1,140 @@
+html,
+body {
+    font-family: "DM Sans";
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn:focus,
+.btn.active {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+
+select {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.navbar .nav-link {
+    font-weight: 700;
+    color: #25366C !important;
+}
+
+
+/* PaymentWrapper */
+
+.paymentWrapper,
+.blueText {
+    color: #24366B;
+}
+
+.bigWeight {
+    font-weight: 700;
+}
+
+
+/* BouneWrapper */
+
+.bunceWrapper {
+    background: linear-gradient(0deg, #EBFBFF 0%, #FFFFFF 100%);
+}
+
+.bunceWrapper .text-center {
+    width: 55%;
+    margin: auto;
+}
+
+.saveTime {
+    background: rgba(217, 233, 36, 0.38);
+    border-radius: 15px;
+    color: #0066FF;
+}
+
+
+/* Section One And section Three */
+
+.sectionOne,
+.sectionThree {
+    background-image: url("/img/Ellipse.svg");
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: -350px 40px;
+}
+
+.durationBtn {
+    background: rgba(196, 196, 196, 0.26);
+    border-radius: 16px;
+    color: #24366B;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+
+/* section Two And section Four */
+
+.sectionTwo,
+.sectionFour {
+    background-image: url("/img/Ellipse.svg");
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: 110% 0;
+}
+
+
+/* Trial Wrapper */
+
+.trialWrapper {
+    background: #385FD5;
+    background-image: url("/img/Trial.svg");
+    background-repeat: no-repeat;
+    background-size: 535px 360px;
+    background-position: bottom right;
+}
+
+.blueBtn {
+    background: #24366B;
+    color: #FFFFFF;
+}
+
+
+/* Churn Wrapper */
+
+.churnWrapper {
+    background-image: url("/img/Ellipse.svg");
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: -150px -150px;
+}
+
+.footer {
+    background: linear-gradient(180deg, #24366B 94.27%, rgba(36, 54, 107, 0.0370371) 96.34%);
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .bunceWrapper .text-center {
+        width: 100%;
+    }
+    .sectionTwo,
+    .sectionFour {
+        background-position: 10rem 0;
+    }
+    .trialWrapper {
+        background-image: none;
+    }
+    .churnWrapper {
+        background-position: -450px;
+    }
+}
